@@ -1,7 +1,5 @@
-# payShield test utility by Marco S. Zuppone - msz@msz.eu
-# This utility is released under AGPL 3.0 license
-# please refer to the LICENSE file for more information about licensing
-# and to README.md file for more information about the usage of it
+# payShield test utility
+# e para o arquivo README.md para obter mais informações sobre o uso dele
 
 import socket
 import ssl
@@ -249,7 +247,7 @@ def run_test(ip_addr: str, port: int, host_command: str, proto: str = "tcp", hea
 
 
 if __name__ == "__main__":
-    print("PayShield stress utility, version " + VERSION + ", by Marco S. Zuppone - msz@msz.eu - https://msz.eu")
+    print("PayShield stress utility, version " + VERSION + ")
     print("To get more info about the usage invoke it with the -h option")
     print("This software is open source and it is under the Affero AGPL 3.0")
     print("")
