@@ -55,11 +55,13 @@ o valor padrão é HEAD.
 ```
 
 ```
---j8 obtém as contagens acumuladas de verificação de integridade usando o comando J8. Não pode ser usado em conjunto com --key.
+--j8 obtém as contagens acumuladas de verificação de integridade usando o comando J8. Não pode ser 
+usado em conjunto com --key.
 ```
 
 ```
---jk obtém o status da verificação de saúde instantânea usando o comando JK. Não pode ser usado em conjunto com --key.
+--jk obtém o status da verificação de saúde instantânea usando o comando JK. Não pode ser usado 
+em conjunto com --key.
 ```
 
 ```
@@ -88,7 +90,8 @@ opção -h Este software é de código aberto e está sob o Affero AGPL 3.0
 ```
 Código de retorno: 00 Sem erro Comando enviado/recebido: NC ==> Dados enviados ND (ASCII): 
 b'HEADNC 'dados enviados (HEX): b'0006484541444e43' dados recebidos (ASCII): 
-b'HEADND005D672700000000001500-0023 'dados recebidos (HEX): b'0021484541444e44303035443637323730303030303030303030313530302d30303233 '
+b'HEADND005D672700000000001500-0023 'dados recebidos (HEX): 
+b'0021484541444e44303035443637323730303030303030303030313530302d30303233 '
 ```
 
 ### 2.2. Iteração: 1 de 2
@@ -96,8 +99,10 @@ b'HEADND005D672700000000001500-0023 'dados recebidos (HEX): b'0021484541444e4430
 ```
 Código de retorno: 00 Sem erro Comando enviado / recebido: NC ==> Dados enviados ND (ASCII): 
 b'HEADNC 'dados enviados (HEX): b'0006484541444e43' dados recebidos (ASCII): 
-b'HEADND005D672700000000001500-0023 'dados recebidos (HEX): b'0021484541444e44303035443637323730303030303030303030313530302d30303233 '
+b'HEADND005D672700000000001500-0023 'dados recebidos (HEX): 
+b'0021484541444e44303035443637323730303030303030303030313530302d30303233 '
 ```
 
 # 4. NOTAS
-O comando EI usado para gerar a chave RSA requer autorização e a geração de chaves de 4.096 bits só é possível para keyblock LMKs.
+O comando EI usado para gerar a chave RSA requer autorização e a geração de chaves de 4.096 bits 
+só é possível para keyblock LMKs.
